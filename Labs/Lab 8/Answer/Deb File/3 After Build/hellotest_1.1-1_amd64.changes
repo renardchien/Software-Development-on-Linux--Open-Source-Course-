@@ -1,0 +1,47 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Wed, 15 Feb 2012 22:24:28 -0500
+Source: hellotest
+Binary: hellotest
+Architecture: source amd64
+Version: 1.1-1
+Distribution: unstable
+Urgency: low
+Maintainer: Cody Van De Mark <cav5343@rit.edu>
+Changed-By: Cody Van De Mark <cav5343@rit.edu>
+Description: 
+ hellotest  - This will print hello world
+Closes: 99999
+Changes: 
+ hellotest (1.1-1) unstable; urgency=low
+ .
+   * Initial release (Closes: #99999)
+Checksums-Sha1: 
+ 9dad3bcd3269480a5cfa467076971c626490bf6c 1316 hellotest_1.1-1.dsc
+ 8be3d71a99496910eaf874af58fee7c604cce5eb 221597 hellotest_1.1.orig.tar.gz
+ b86481506a62e381401e1bbf36370da79d350ed2 11382 hellotest_1.1-1.debian.tar.gz
+ 819cf6013f8eee9950221a5af82a0b2d5c5c487e 4978 hellotest_1.1-1_amd64.deb
+Checksums-Sha256: 
+ 8cc9fd16148b7d53a452b614258c8cfcd60336637e28759f2989e8dde07815ef 1316 hellotest_1.1-1.dsc
+ b03bae91e1194f70133b0239502520fd86b20eaefe1eb39deb07002774bd03c8 221597 hellotest_1.1.orig.tar.gz
+ d93bd840176448ff2f20b82bc32b03231dd3a60a2689baf79e52285015197adc 11382 hellotest_1.1-1.debian.tar.gz
+ abd02e7c59e31c8c9f9482a9ef163fd221945d50291d4535f765a9a674584bdf 4978 hellotest_1.1-1_amd64.deb
+Files: 
+ 28cbdda722f46d192773fdcbed7b8d0b 1316 devel extra hellotest_1.1-1.dsc
+ 457d134cc8be3bdcb9d1cedea2c26253 221597 devel extra hellotest_1.1.orig.tar.gz
+ 4d8db2bb6a2f7a084d67d502d599005a 11382 devel extra hellotest_1.1-1.debian.tar.gz
+ a45763daab24a37c271bb7ec18c9b50d 4978 devel extra hellotest_1.1-1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iQEcBAEBAgAGBQJPPH9PAAoJECOSR2j6sFzI81MH+wU9JsYwHwYasd3g1BEEHS18
+7ETInBB+FaummuRBx61HcDJJTKloJF9sG1sz2Aj77MM5P7qrE3z/Oe9YDQ6+8fVr
+CqUYp0Lq4262u/drqJ0xWgzOHY9TmSZ/I9eAi9LcsMZh57Uz5Ay1wJkrc3UygemP
+VWX+5Mw+JxR+vg5DSzmnyXu5XqzhjT1OFFlnazdFV22sAaMhdPOvFLZTwtKbljkt
+rgRneNr6fi4acpz2ZDG74X3+NFi5XAbTkC0Ir5g9m+37ciOmFtuPpyRsVk2s3+ui
+sbozguISoWvDzBJ4Fy4yZn5L7lr+Gb4xnHN3BO6li5ATGOmRYll0b59i5itLvos=
+=Qlp7
+-----END PGP SIGNATURE-----

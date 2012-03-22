@@ -1,0 +1,34 @@
+Hello-world(1)                   User Manuals                   Hello-world(1)
+
+
+
+NAME
+       hello-world - Application that prints "hello world"
+
+SYNOPSIS
+       hello-world [--debug][-n #]
+
+DESCRIPTION
+       hello-world 1.1
+
+       hello-world allows you to print “Hello World” from the command. This is
+       done as practice in many languages as the first application written.
+
+OPTIONS
+       --debug
+              Print verbose runtime information to the terminal  that  can  be
+              used for debugging purposes.
+
+       -n     When  followed  by  a  number  this is the number of times hello
+              world will be printed to the terminal.
+
+BUGS
+       See http://myDebuggingSiteForHello.org.net.edu for a  current  list  of
+       bugs or email new bugs to myDebug@debug.org.net.edu.edu.mail.net.org
+
+SEE ALSO
+       gcc(1), g++(1), goodbye-world(1)
+
+
+
+1.1 Linux Version                January 2011                   Hello-world(1)

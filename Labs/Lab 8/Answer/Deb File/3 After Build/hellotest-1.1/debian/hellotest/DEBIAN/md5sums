@@ -1,0 +1,5 @@
+a4e57a16a2906ff5ad839e1827761d3e  usr/sbin/hellotest
+75a0c5b0785da32a6a377a4ccfc00a9a  usr/share/doc/hellotest (White Space Conflict)/README
+79b1052a9397a7b5964a5de32ed6548b  usr/share/doc/hellotest/changelog.Debian.gz
+a4be2ecbf9175d469d11124be8289484  usr/share/doc/hellotest/copyright
+2a2e44c2006fdbe3e1325bf13a602bf3  usr/share/man/man1/hellotest.1.gz

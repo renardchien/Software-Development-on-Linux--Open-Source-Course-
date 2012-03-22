@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link href="/uploaded/login_files/style.css" rel="stylesheet" type="text/css" />
+	<title>Messageboard Registration</title>
+</head>
+<body> 
+<div id="pasted_layer"> 
+
+	<body>
+		<div id="boards"> 
+			 Create Thread </br>
+			<form style="display:inline"action="/boards/">
+				<input type="submit" value="Home">
+			</form>
+			<form style="display:inline"action="/boards/logout/" method="post">
+				{% csrf_token %}
+				 <input type="submit" value="Logout">
+			</form>
+		</div> 
+		<div id="login" class="rounded">
+			<form action="/boards/createthread/" method="post">
+				{% csrf_token %}
+				Thread Name:<input name="threadname" type="text"  /> <br/>
+	      			Post:  <br/>
+				<textarea name="postdata" cols=40 rows=7 ></textarea> 
+				<input type="submit" value="Create Thread"/>
+	   		 </form>
+		</div>
+	</body>
+</div> 
+</body>
+</html>

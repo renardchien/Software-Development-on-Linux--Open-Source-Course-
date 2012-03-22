@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link href="/uploaded/login_files/style.css" rel="stylesheet" type="text/css" />
+	<title>Messageboard Registration</title>
+</head>
+<body> 
+<div id="pasted_layer"> 
+
+	<body>
+		<div id="boards"> 
+			 Messageboard Registration
+		</div> 
+		<div id="login" class="rounded">
+			<form action="/boards/register/" method="post">
+				{% csrf_token %}
+				Username:<input name="user" type="text"  > <br/>
+	      			Password:  <input name="passwd" type="password"> <br/>
+					 <input type="submit" value="Register">
+	   		 </form>
+		</div>
+	</body>
+</div> 
+</body>
+</html>

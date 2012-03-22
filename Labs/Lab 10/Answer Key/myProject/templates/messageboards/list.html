@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link href="/uploaded/login_files/style.css" rel="stylesheet" type="text/css" />
+	<title>Messageboards</title>
+</head>
+<body>
+	<div  id="pasted_layer">
+		<div id="header">
+			Welcome {{ name }}
+			<form action="/boards/logout/" method="post">
+				{% csrf_token %}
+				 <input type="submit" value="Logout">
+			</form>
+		</div>
+		<div id="pages" >
+			<div class="list_left">
+				<ul>
+				<form action="/boards/create/">
+					 <input type="submit" value="Create Thread"/>
+				</form>
+				{% for m in mlists %}
+					<li><a href="/boards/page/{{ m.page }}/">Page {{ m.page }}</a></li>
+				{% empty %}
+					<li> There are not any threads yet </li>
+				{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+%dir /usr/lib/debug
+%dir /usr/lib/debug/usr
+%dir /usr/lib/debug/usr/sbin
+%dir /usr/lib/debug/.build-id
+%dir /usr/lib/debug/.build-id/25
+/usr/lib/debug/usr/sbin/hellotest.debug
+/usr/lib/debug/.build-id/25/f867ea76159fc09f6be3a8967b54b5e187a92d.debug
+/usr/lib/debug/.build-id/25/f867ea76159fc09f6be3a8967b54b5e187a92d

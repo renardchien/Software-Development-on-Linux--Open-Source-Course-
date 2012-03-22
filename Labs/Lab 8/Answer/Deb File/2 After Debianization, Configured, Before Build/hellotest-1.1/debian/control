@@ -1,0 +1,15 @@
+Source: hellotest
+Section: devel
+Priority: extra
+Maintainer: Cody Van De Mark <cav5343@rit.edu>
+Build-Depends: debhelper (>= 7.0.50~), autotools-dev
+Standards-Version: 3.9.1
+homepage: http://ist.rit.edu
+
+Package: hellotest
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: This will print hello world
+ this is my one space indented longer description. It must be indented one space
+ infrom the word description or else it will not parse correctly.
+ 

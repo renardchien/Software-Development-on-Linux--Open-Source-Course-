@@ -1,0 +1,14 @@
+Source: hellotestdeb
+Section: devel
+Priority: extra
+Maintainer: lastname <lastname@it.edu.lol.com>
+Build-Depends: debhelper (>= 7.0.50~), autotools-dev
+Standards-Version: 3.9.1
+
+Package: hellotestdeb
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: This is a hello world program
+ This is a hello world program to test launchpad's
+ staging environment and how to use launchpad in 
+ general. 

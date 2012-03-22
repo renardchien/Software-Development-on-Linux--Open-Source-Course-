@@ -1,0 +1,15 @@
+Source: hellotest
+Section: unknown
+Priority: extra
+Maintainer: ren <cav5343@rit.edu>
+Build-Depends: debhelper (>= 7.0.50~), autotools-dev
+Standards-Version: 3.9.1
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://git.debian.org/collab-maint/hellotest.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/hellotest.git;a=summary
+
+Package: hellotest
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>

@@ -1,0 +1,11 @@
+hello version 1.1
+Copyright January 2011 programmerGuy <progGuy@infoMix.it.it.edu.ca.zol>
+
+=====Instruction===============
+You can run hellotest from the command line after installation. It will print "hello world" whenever you run in. You should be able to directly use the command hellotest from the command line. 
+
+=====Bugs======================
+There are no known bugs, but if you find any let me know at the email address above.
+
+=====License===================
+Refer to the copyright file for the license

@@ -1,0 +1,12 @@
+Package: hellotest
+Version: 1.1-1
+Architecture: amd64
+Maintainer: Cody Van De Mark <cav5343@rit.edu>
+Installed-Size: 64
+Depends: libc6 (>= 2.2.5), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.4.0)
+Section: devel
+Priority: extra
+Homepage: http://ist.rit.edu
+Description: This will print hello world
+ this is my one space indented longer description. It must be indented one space
+ infrom the word description or else it will not parse correctly.

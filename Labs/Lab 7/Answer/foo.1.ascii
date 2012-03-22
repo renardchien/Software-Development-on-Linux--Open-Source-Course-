@@ -1,0 +1,64 @@
+FOO(1)                           User Manuals                           FOO(1)
+
+
+
+NNAAMMEE
+       foo - frobnicate the bar library
+
+SSYYNNOOPPSSIISS
+       ffoooo [[--bbaarr]] [[--cc _c_o_n_f_i_g_-_f_i_l_e ]] _f_i_l_e ......
+
+DDEESSCCRRIIPPTTIIOONN
+       ffoooo  frobnicates the bar library by tweaking internal symbol tables. By
+       default it parses all baz segments and rearranges them in reverse order
+       by  time for the xxyyzzzzyy(1) linker to find them. The symdef entry is then
+       compressed using the WBG (Whiz-Bang-Gizmo) algorithm.   All  files  are
+       processed in the order specified.
+
+OOPPTTIIOONNSS
+       -b     Do not write `busy' to stdout while processing.
+
+       -c config-file
+              Use   the   alternate   system   wide   _c_o_n_f_i_g_-_f_i_l_e  instead  of
+              _/_e_t_c_/_f_o_o_._c_o_n_f.  This overrides any FFOOOOCCOONNFF environment variable.
+
+       -a     In addition to the baz segments, also parse the blurfl headers.
+
+       -r     Recursive mode. Operates as fast as lightning at the expense  of
+              a megabyte of virtual memory.
+
+FFIILLEESS
+       _/_e_t_c_/_f_o_o_._c_o_n_f
+              The  system  wide  configuration  file.  See  ffoooo(5) for further
+              details.
+       _~_/_._f_o_o_r_c
+              Per user configuration file. See ffoooo(5) for further details.
+
+EENNVVIIRROONNMMEENNTT
+       FOOCONF
+              If non-null the full  pathname  for  an  alternate  system  wide
+              _f_o_o_._c_o_n_f.  Overridden by the --cc option.
+
+DDIIAAGGNNOOSSTTIICCSS
+       The following diagnostics may be issued on stderr:
+
+       Bad magic number.
+              The input file does not look like an archive file.
+       Old style baz segments.
+              ffoooo  can  only  handle  new  style  baz  segments.  COBOL object
+              libraries are not supported in this version.
+
+BBUUGGSS
+       The command name should have been chosen more carefully to reflect  its
+       purpose.
+
+AAUUTTHHOORR
+       Jens Schweikhardt <howto at schweikhardt dot net>
+
+SSEEEE AALLSSOO
+       bbaarr(1), ffoooo(5), xxyyzzzzyy(1)
+
+
+
+
+Linux                             MARCH 1995                            FOO(1)

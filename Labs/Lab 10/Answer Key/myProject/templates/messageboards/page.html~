@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link href="/uploaded/login_files/style.css" rel="stylesheet" type="text/css" />
+	<title>Page {{ page }}</title>
+</head>
+<body>
+	<div  id="pasted_layer">
+		<div id="boards">
+			{{ page }}
+
+			<form style="display:inline"action="/boards/">
+				<input type="submit" value="Home">
+			</form>
+			<form style="display:inline"action="/boards/logout/" method="post">
+				{% csrf_token %}
+				 <input type="submit" value="Logout">
+			</form>
+		</div>
+		</br>
+		<div id="posts"">
+			{% for message in messages %}
+				<div>
+					<span>{{ message.user }}</span>
+					<span>{{ message.time }}</span>
+					<span>{{ message.message }}</span>
+				</div>
+				</br> </br>
+			{% endfor %}
+			<a name="bottom"></a>
+			<div>
+				<form action="/boards/page/{{ page }}/#bottom" method="post">
+					{% csrf_token %}
+					Post:  <br/>
+					<textarea name="postdata" cols=70 rows=7 ></textarea> 
+					</br>
+					<input type="submit" value="Reply"/>
+				</form>
+			</div>
+			</br> </br>
+		</div>
+	</div>
+</body>
+</html>
